@@ -228,6 +228,16 @@
   letter-spacing: 2px;
 }
 
+.landing-description {
+  max-width: 520px;
+  margin: 14px 0 0;
+  padding: 0 0 0 20px;
+  color: rgba(255, 255, 255, 0.86);
+  font-size: 15px;
+  line-height: 1.7;
+  letter-spacing: 0.4px;
+}
+
 .landing-h2-info-1 {
   position: absolute;
   top: 0;
@@ -287,6 +297,12 @@ h2.landing-info-h2 {
   .landing-info h2 {
     font-size: 35px;
     line-height: 40px;
+  }
+
+  .landing-description {
+    max-width: 100%;
+    padding: 0;
+    font-size: 15px;
   }
 
   h2.landing-info-h2 {
