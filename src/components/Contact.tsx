@@ -8,17 +8,18 @@ const Contact = () => {
         <h3>Contact</h3>
         <div className="contact-flex">
           <div className="contact-box">
-            <h4>Connect</h4>
-            <p>
-              <a
-                href="https://www.linkedin.com/in/akashrmalhotra/"
-                target="_blank"
-                rel="noreferrer"
-                data-cursor="disable"
-              >
-                LinkedIn — akashrmalhotra
-              </a>
-            </p>
+            <h4>GitHub</h4>
+            <a
+              href="https://github.com/Peller11"
+              target="_blank"
+              rel="noreferrer"
+              data-cursor="disable"
+              className="contact-social"
+            >
+              Peller11 <MdArrowOutward />
+            </a>
+          </div>
+          <div className="contact-box">
             <h4>Education</h4>
             <p>
               PGPWE (MBA), Indian Institute of Management, Lucknow — 2021–2023
@@ -29,47 +30,8 @@ const Contact = () => {
             </p>
           </div>
           <div className="contact-box">
-            <h4>Social</h4>
-            <a
-              href="https://github.com/akashrmalhotra"
-              target="_blank"
-              rel="noreferrer"
-              data-cursor="disable"
-              className="contact-social"
-            >
-              GitHub <MdArrowOutward />
-            </a>
-            <a
-              href="https://www.linkedin.com/in/akashrmalhotra/"
-              target="_blank"
-              rel="noreferrer"
-              data-cursor="disable"
-              className="contact-social"
-            >
-              LinkedIn <MdArrowOutward />
-            </a>
-            <a
-              href="https://www.youtube.com/@Leftbraincoder"
-              target="_blank"
-              rel="noreferrer"
-              data-cursor="disable"
-              className="contact-social"
-            >
-              YouTube <MdArrowOutward />
-            </a>
-            <a
-              href="https://www.instagram.com/leftbraincoder/"
-              target="_blank"
-              rel="noreferrer"
-              data-cursor="disable"
-              className="contact-social"
-            >
-              Instagram <MdArrowOutward />
-            </a>
-          </div>
-          <div className="contact-box">
             <h2>
-              Designed and Developed <br /> by <span>Akash Malhotra</span>
+              Designed and Developed <br /> by <span>Oyewale Pelumi</span>
             </h2>
             <h5>
               <MdCopyright /> 2026
