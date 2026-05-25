@@ -1,0 +1,116 @@
+.icons-section {
+  position: fixed;
+  max-width: var(--cMaxWidth);
+  width: var(--cWidth);
+  bottom: 0;
+  z-index: 99;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.social-icons {
+  position: absolute;
+  left: -20px;
+  bottom: 20px;
+  display: none;
+  flex-direction: column;
+  gap: 8px;
+  z-index: 999;
+  padding: 10px;
+  background: rgba(3, 6, 11, 0.28);
+  border: 1px solid rgba(125, 211, 252, 0.12);
+  border-radius: 999px;
+  box-shadow: var(--panelShadow);
+  backdrop-filter: blur(8px);
+}
+.social-icons:hover {
+  transition: 0.3s;
+  color: var(--accentStrong);
+}
+.social-icons a:hover {
+  color: var(--accentStrong);
+  text-shadow: 0 0 18px rgba(125, 211, 252, 0.2);
+}
+.social-icons span {
+  width: 50px;
+  height: 50px;
+  position: relative;
+  display: flex;
+}
+.social-icons a {
+  --siLeft: 50%;
+  --siTop: 50%;
+  position: absolute;
+  left: var(--siLeft, 50%);
+  top: var(--siTop, 50%);
+  transform: translate(-50%, -50%);
+  display: flex;
+  font-size: 23px;
+  will-change: left, top;
+  transition: transform 0.3s ease-out, color 0.3s ease, text-shadow 0.3s ease;
+  color: var(--textMuted);
+}
+.resume-button {
+  position: absolute;
+  z-index: 99;
+  display: flex;
+  gap: 5px;
+  bottom: 40px;
+  right: 0;
+  width: auto;
+  text-wrap: nowrap;
+  letter-spacing: 4px;
+  font-size: 15px;
+  line-height: 15px;
+  font-weight: 600;
+  color: var(--textMuted);
+  cursor: pointer;
+  transition: 0.5s;
+  transform-origin: left bottom;
+  transform: translateX(100%) rotateZ(-90deg);
+  padding: 10px 14px;
+  border-radius: 999px;
+  background: rgba(3, 6, 11, 0.28);
+  border: 1px solid rgba(125, 211, 252, 0.12);
+  box-shadow: var(--panelShadow);
+  backdrop-filter: blur(8px);
+}
+.resume-button:hover {
+  color: var(--accentStrong);
+  text-shadow: 0 0 18px rgba(125, 211, 252, 0.2);
+}
+div.resume-button span {
+  color: var(--accentColor);
+  font-size: 17px;
+  margin-top: -1px;
+  display: flex;
+  align-items: center;
+}
+.check-line {
+  position: fixed;
+  top: 655px;
+  left: 0;
+  height: 1px;
+  background-color: #ffffff;
+  width: 100%;
+  z-index: 99999;
+}
+@media only screen and (min-width: 900px) {
+  .social-icons {
+    display: flex;
+    gap: 20px;
+  }
+  .social-icons a {
+    font-size: 28px;
+  }
+}
+@media only screen and (min-width: 768px) {
+  .resume-button {
+    transform: none;
+    font-size: 20px;
+    line-height: 20px;
+  }
+  div.resume-button span {
+    font-size: 23px;
+    margin-top: -1.5px;
+  }
+}
