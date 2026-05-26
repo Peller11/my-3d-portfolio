@@ -8,6 +8,7 @@ const Contact = () => {
         <h3>Contact</h3>
         <div className="contact-flex">
           <div className="contact-box">
+<<<<<<< HEAD
             <h4>Email</h4>
             <a
               href="mailto:Mideaa321@gmail.com"
@@ -15,6 +16,17 @@ const Contact = () => {
               className="contact-social"
             >
               Mideaa321@gmail.com <MdArrowOutward />
+=======
+            <h4>GitHub</h4>
+            <a
+              href="https://github.com/Peller11"
+              target="_blank"
+              rel="noreferrer"
+              data-cursor="disable"
+              className="contact-social"
+            >
+              Peller11 <MdArrowOutward />
+>>>>>>> 505c90f31e9b8485c3b5aff376b047970e943c98
             </a>
           </div>
           <div className="contact-box">

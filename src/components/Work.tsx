@@ -5,26 +5,45 @@ import { MdArrowBack, MdArrowForward } from "react-icons/md";
 
 const projects = [
   {
+<<<<<<< HEAD
     title: "Restaurant Website",
     category:
       "A modern restaurant website with responsive design, reservation functionality, premium UI, and professional business branding.",
     tools: "HTML, CSS, JavaScript, React, Vercel",
+=======
+    title: "Luxury Restaurant Website",
+    category:
+      "A premium restaurant website with modern animations, mobile responsiveness, and reservation features.",
+    tools: "React, Responsive Layout, Premium Animations, Gallery, Contact Flow",
+>>>>>>> 505c90f31e9b8485c3b5aff376b047970e943c98
     image: "/images/callhq.png",
     link: "#",
   },
   {
+<<<<<<< HEAD
     title: "3D Cybersecurity Portfolio",
     category:
       "An interactive 3D portfolio website showcasing my cybersecurity journey, skills, and projects with modern animations and responsive design.",
     tools: "React, Three.js, TypeScript, Vite",
+=======
+    title: "3D Portfolio Website",
+    category:
+      "An interactive 3D portfolio built using React and modern frontend animations.",
+    tools: "React, Three.js, Scroll Animations, Interactive UI, Portfolio Showcase",
+>>>>>>> 505c90f31e9b8485c3b5aff376b047970e943c98
     image: "/images/whatsapp.png",
     link: "#",
   },
   {
     title: "Cybersecurity Learning Lab",
     category:
+<<<<<<< HEAD
       "A hands-on learning environment for practicing Linux, networking, system administration, and blue team cybersecurity concepts.",
     tools: "Linux, Networking, TryHackMe, Wireshark",
+=======
+      "A personal cybersecurity practice environment for Linux, networking, and SOC analysis training.",
+    tools: "Linux, Networking, Threat Detection, Log Analysis, SOC Fundamentals",
+>>>>>>> 505c90f31e9b8485c3b5aff376b047970e943c98
     image: "/images/broki.png",
     link: "#",
   },

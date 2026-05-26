@@ -13,7 +13,10 @@ const Landing = ({ children }: PropsWithChildren) => {
               <br />
               <span>PELUMI</span>
             </h1>
+<<<<<<< HEAD
             <p className="hero-badge">300 Level Cybersecurity Student</p>
+=======
+>>>>>>> 505c90f31e9b8485c3b5aff376b047970e943c98
           </div>
           <div className="landing-info">
             <h3>Cybersecurity Student | Aspiring SOC Analyst</h3>
@@ -29,6 +32,7 @@ const Landing = ({ children }: PropsWithChildren) => {
               Focused on threat detection, Linux, networking, and security monitoring.
               Currently building hands-on blue team and SOC skills.
             </p>
+<<<<<<< HEAD
             <p className="landing-tagline">
               Building Blue Team Skills, One Lab at a Time.
             </p>
@@ -43,6 +47,8 @@ const Landing = ({ children }: PropsWithChildren) => {
                 Download CV
               </a>
             </div>
+=======
+>>>>>>> 505c90f31e9b8485c3b5aff376b047970e943c98
           </div>
         </div>
         {children}

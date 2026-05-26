@@ -13,22 +13,38 @@
 }
 
 .career-section h2 {
+<<<<<<< HEAD
   font-size: clamp(2.8rem, 5vw, 4.4rem);
   line-height: 1.02;
   font-weight: 700;
   text-align: center;
   background: linear-gradient(180deg, #7dd3fc 0%, #93c5fd 42%, #f8fdff 100%);
+=======
+  font-size: 70px;
+  line-height: 70px;
+  font-weight: 400;
+  text-align: center;
+  background: linear-gradient(0deg, #0d9488, #ffffff);
+>>>>>>> 505c90f31e9b8485c3b5aff376b047970e943c98
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   color: transparent;
   margin-top: 50px;
   margin-bottom: 90px;
+<<<<<<< HEAD
   letter-spacing: -0.05em;
 }
 
 .career-section h2>span {
   font-weight: 500;
+=======
+}
+
+.career-section h2>span {
+  font-family: "Geist", sans-serif;
+  font-weight: 300;
+>>>>>>> 505c90f31e9b8485c3b5aff376b047970e943c98
 }
 
 .career-info {
@@ -47,8 +63,12 @@
 .career-info-box p {
   width: 40%;
   font-size: 18px;
+<<<<<<< HEAD
   font-weight: 400;
   line-height: 1.8;
+=======
+  font-weight: 300;
+>>>>>>> 505c90f31e9b8485c3b5aff376b047970e943c98
   margin: 0;
 }
 
@@ -62,24 +82,42 @@
 .career-info h3 {
   font-size: 48px;
   margin: 0;
+<<<<<<< HEAD
   font-weight: 700;
   line-height: 1.02;
   letter-spacing: -0.04em;
+=======
+  font-weight: 500;
+  line-height: 45px;
+>>>>>>> 505c90f31e9b8485c3b5aff376b047970e943c98
 }
 
 .career-info h4 {
   font-size: 33px;
+<<<<<<< HEAD
   line-height: 1.08;
   letter-spacing: -0.02em;
   font-weight: 600;
+=======
+  line-height: 30px;
+  letter-spacing: 0.8px;
+  font-weight: 500;
+>>>>>>> 505c90f31e9b8485c3b5aff376b047970e943c98
   margin: 0;
 }
 
 .career-info h5 {
+<<<<<<< HEAD
   font-weight: 600;
   letter-spacing: 0.12em;
   font-size: 18px;
   text-transform: uppercase;
+=======
+  font-weight: 400;
+  letter-spacing: 0.7px;
+  font-size: 20px;
+  text-transform: capitalize;
+>>>>>>> 505c90f31e9b8485c3b5aff376b047970e943c98
   margin: 10px 0px;
   color: var(--accentColor);
 }
@@ -92,7 +130,11 @@
   width: 3px;
   height: 100%;
   background-image: linear-gradient(to top,
+<<<<<<< HEAD
       rgba(59, 130, 246, 0.95) 10%,
+=======
+      #14b8a6 20%,
+>>>>>>> 505c90f31e9b8485c3b5aff376b047970e943c98
       var(--accentColor) 50%,
       transparent 95%);
   max-height: 0%;
@@ -103,12 +145,21 @@
   bottom: 0;
   left: 50%;
   transform: translate(-50%, 50%);
+<<<<<<< HEAD
   background-color: var(--accentStrong);
   width: 10px;
   height: 10px;
   border-radius: 50px;
   box-shadow: 0px 0px 5px 2px rgba(125, 211, 252, 0.85), 0px 0px 20px 8px rgba(56, 189, 248, 0.28),
     0px 0px 90px 20px rgba(59, 130, 246, 0.16);
+=======
+  background-color: #14b8a6;
+  width: 10px;
+  height: 10px;
+  border-radius: 50px;
+  box-shadow: 0px 0px 5px 2px #67e8f9, 0px 0px 15px 8px #5eead4,
+    0px 0px 110px 20px #a5f3fc;
+>>>>>>> 505c90f31e9b8485c3b5aff376b047970e943c98
   animation: timeline 0.8s linear infinite forwards;
 }
 
@@ -119,7 +170,11 @@
   50%,
   70%,
   90% {
+<<<<<<< HEAD
     box-shadow: 0px 0px 5px 2px rgba(125, 211, 252, 0.8);
+=======
+    box-shadow: 0px 0px 5px 2px #67e8f9;
+>>>>>>> 505c90f31e9b8485c3b5aff376b047970e943c98
   }
 
   10%,
@@ -128,19 +183,33 @@
   100%,
   64%,
   80% {
+<<<<<<< HEAD
     box-shadow: 0px 0px 5px 2px rgba(125, 211, 252, 0.85), 0px 0px 20px 5px rgba(56, 189, 248, 0.28),
       0px 0px 90px 20px rgba(59, 130, 246, 0.16);
+=======
+    box-shadow: 0px 0px 5px 2px #67e8f9, 0px 0px 15px 5px #5eead4,
+      0px 0px 110px 20px #a5f3fc;
+>>>>>>> 505c90f31e9b8485c3b5aff376b047970e943c98
   }
 }
 
 @keyframes timeline2 {
   0% {
+<<<<<<< HEAD
     box-shadow: 0px 0px 5px 2px rgba(125, 211, 252, 0.85);
   }
 
   100% {
     box-shadow: 0px 0px 5px 2px rgba(125, 211, 252, 0.85), 0px 0px 20px 5px rgba(56, 189, 248, 0.28),
       0px 0px 90px 20px rgba(59, 130, 246, 0.16);
+=======
+    box-shadow: 0px 0px 5px 2px #67e8f9;
+  }
+
+  100% {
+    box-shadow: 0px 0px 5px 2px #67e8f9, 0px 0px 15px 5px #5eead4,
+      0px 0px 110px 20px #a5f3fc;
+>>>>>>> 505c90f31e9b8485c3b5aff376b047970e943c98
   }
 }
 

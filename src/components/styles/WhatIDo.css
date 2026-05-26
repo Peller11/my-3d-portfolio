@@ -20,9 +20,14 @@
 }
 .what-box h2 {
   font-size: calc(4vw + 25px);
+<<<<<<< HEAD
   line-height: 0.98;
   font-weight: 700;
   letter-spacing: -0.05em;
+=======
+  line-height: calc(4vw + 20px);
+  font-weight: 600;
+>>>>>>> 505c90f31e9b8485c3b5aff376b047970e943c98
   margin-right: 10%;
   margin-bottom: 100px;
 }
@@ -45,6 +50,7 @@
   height: 33%;
   min-height: 50%;
   transition: 0.5s;
+<<<<<<< HEAD
   position: relative;
   padding: 50px;
   box-sizing: border-box;
@@ -63,6 +69,12 @@
   border-radius: inherit;
   background: linear-gradient(135deg, rgba(125, 211, 252, 0.06), transparent 45%);
   pointer-events: none;
+=======
+  /* border: 0.5px dashed rgba(255, 255, 255, 0.3); */
+  position: relative;
+  padding: 50px;
+  box-sizing: border-box;
+>>>>>>> 505c90f31e9b8485c3b5aff376b047970e943c98
 }
 
 .what-noTouch:hover,
@@ -79,6 +91,7 @@
 }
 .what-content h3 {
   font-size: 35px;
+<<<<<<< HEAD
   letter-spacing: -0.03em;
   line-height: 1.08;
   font-weight: 700;
@@ -98,6 +111,23 @@
   margin: 0px;
   font-size: 13px;
   opacity: 0.7;
+=======
+  letter-spacing: 1px;
+  margin: 0;
+}
+.what-content p {
+  font-size: 14px;
+  line-height: 18px;
+  font-weight: 200;
+  letter-spacing: 0.7px;
+}
+.what-content h4 {
+  font-weight: 300;
+  letter-spacing: 1px;
+  margin: 0px;
+  font-size: 14px;
+  opacity: 0.3;
+>>>>>>> 505c90f31e9b8485c3b5aff376b047970e943c98
 }
 .what-content-in {
   opacity: 0;
@@ -127,8 +157,12 @@
   width: 10px;
   height: 10px;
   position: absolute;
+<<<<<<< HEAD
   border: 4px solid rgba(125, 211, 252, 0.8);
   box-shadow: 0 0 12px rgba(125, 211, 252, 0.2);
+=======
+  border: 4px solid #fff;
+>>>>>>> 505c90f31e9b8485c3b5aff376b047970e943c98
   opacity: 0;
   animation: whatCorners 0.2s 1 forwards;
   animation-delay: 0.5s;
@@ -168,8 +202,12 @@
   right: 20px;
   width: 25px;
   height: 25px;
+<<<<<<< HEAD
   border: 1px solid rgba(125, 211, 252, 0.75);
   box-shadow: 0 0 12px rgba(125, 211, 252, 0.16);
+=======
+  border: 1px solid #fff;
+>>>>>>> 505c90f31e9b8485c3b5aff376b047970e943c98
 }
 .what-arrow::before {
   content: "";
@@ -177,8 +215,13 @@
   top: 40%;
   left: 50%;
   transform: translate(-50%, -50%) rotate(-45deg);
+<<<<<<< HEAD
   border-left: 1px solid rgba(125, 211, 252, 0.85);
   border-bottom: 1px solid rgba(125, 211, 252, 0.85);
+=======
+  border-left: 1px solid #fff;
+  border-bottom: 1px solid #fff;
+>>>>>>> 505c90f31e9b8485c3b5aff376b047970e943c98
   transition: 0.5s;
   width: 10px;
   height: 10px;
@@ -230,11 +273,19 @@
   overflow: hidden;
 }
 .what-content-in h5 {
+<<<<<<< HEAD
   font-weight: 500;
   opacity: 0.65;
   font-size: 12px;
   letter-spacing: 0.16em;
   text-transform: uppercase;
+=======
+  font-weight: 300;
+  opacity: 0.5;
+  font-size: 12px;
+  letter-spacing: 1px;
+  font-family: "Geist", sans-serif;
+>>>>>>> 505c90f31e9b8485c3b5aff376b047970e943c98
   margin-bottom: 5px;
 }
 @keyframes whatBorders {
@@ -254,12 +305,20 @@
 }
 .what-tags {
   font-size: 13px;
+<<<<<<< HEAD
   font-weight: 500;
   padding: 2px 7px;
   background: rgba(125, 211, 252, 0.1);
   border: 1px solid rgba(125, 211, 252, 0.28);
   border-radius: 30px;
   color: var(--textPrimary);
+=======
+  font-weight: 400;
+  padding: 2px 7px;
+  background-color: rgba(255, 255, 255, 0.15);
+  border: 1px solid #ffffff50;
+  border-radius: 30px;
+>>>>>>> 505c90f31e9b8485c3b5aff376b047970e943c98
 }
 @media only screen and (max-width: 1600px) {
   .what-box h2 {

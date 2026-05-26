@@ -26,6 +26,7 @@
 .header ul li {
   margin-left: 0px;
   letter-spacing: 1px;
+<<<<<<< HEAD
   color: var(--textMuted);
   font-weight: 600;
   cursor: pointer;
@@ -35,6 +36,11 @@
 .header ul li:hover {
   color: var(--accentStrong);
   text-shadow: 0 0 18px rgba(125, 211, 252, 0.2);
+=======
+  color: #ccc;
+  font-weight: 600;
+  cursor: pointer;
+>>>>>>> 505c90f31e9b8485c3b5aff376b047970e943c98
 }
 .navbar-connect {
   position: absolute;
@@ -61,11 +67,18 @@
     font-size: 14px;
   }
   .header ul li {
+<<<<<<< HEAD
     color: var(--textPrimary);
   }
   .navbar-title {
     font-size: 16px;
     color: var(--textPrimary);
+=======
+    color: #eae5ec;
+  }
+  .navbar-title {
+    font-size: 16px;
+>>>>>>> 505c90f31e9b8485c3b5aff376b047970e943c98
   }
 }
 @media only screen and (min-width: 900px) {

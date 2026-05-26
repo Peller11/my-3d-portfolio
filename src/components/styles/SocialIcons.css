@@ -16,6 +16,7 @@
   gap: 8px;
   z-index: 999;
   padding: 10px;
+<<<<<<< HEAD
   background: rgba(3, 6, 11, 0.28);
   border: 1px solid rgba(125, 211, 252, 0.12);
   border-radius: 999px;
@@ -29,6 +30,16 @@
 .social-icons a:hover {
   color: var(--accentStrong);
   text-shadow: 0 0 18px rgba(125, 211, 252, 0.2);
+=======
+}
+.social-icons:hover {
+  transition: 0.3s;
+  color: var(--backgroundColor);
+}
+.social-icons a:hover {
+  color: var(--backgroundColor);
+  /* transform: scale(1.2); */
+>>>>>>> 505c90f31e9b8485c3b5aff376b047970e943c98
 }
 .social-icons span {
   width: 50px;
@@ -46,8 +57,12 @@
   display: flex;
   font-size: 23px;
   will-change: left, top;
+<<<<<<< HEAD
   transition: transform 0.3s ease-out, color 0.3s ease, text-shadow 0.3s ease;
   color: var(--textMuted);
+=======
+  transition: transform 0.3s ease-out;
+>>>>>>> 505c90f31e9b8485c3b5aff376b047970e943c98
 }
 .resume-button {
   position: absolute;
@@ -62,11 +77,16 @@
   font-size: 15px;
   line-height: 15px;
   font-weight: 600;
+<<<<<<< HEAD
   color: var(--textMuted);
+=======
+  color: #5e5e5e;
+>>>>>>> 505c90f31e9b8485c3b5aff376b047970e943c98
   cursor: pointer;
   transition: 0.5s;
   transform-origin: left bottom;
   transform: translateX(100%) rotateZ(-90deg);
+<<<<<<< HEAD
   padding: 10px 14px;
   border-radius: 999px;
   background: rgba(3, 6, 11, 0.28);
@@ -80,6 +100,14 @@
 }
 div.resume-button span {
   color: var(--accentColor);
+=======
+}
+.resume-button:hover {
+  color: #fff;
+}
+div.resume-button span {
+  color: #fff;
+>>>>>>> 505c90f31e9b8485c3b5aff376b047970e943c98
   font-size: 17px;
   margin-top: -1px;
   display: flex;

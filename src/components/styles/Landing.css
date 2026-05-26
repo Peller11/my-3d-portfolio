@@ -21,8 +21,13 @@
   position: fixed;
   width: 300px;
   height: 300px;
+<<<<<<< HEAD
   background: radial-gradient(circle at 30% 30%, rgba(125, 211, 252, 0.56), rgba(59, 130, 246, 0.26), transparent 60%);
   box-shadow: inset -50px 40px 50px rgba(56, 189, 248, 0.3), 0 0 80px rgba(56, 189, 248, 0.18);
+=======
+  background-color: #22d3ee;
+  box-shadow: inset -50px 40px 50px rgba(0, 180, 180, 0.6);
+>>>>>>> 505c90f31e9b8485c3b5aff376b047970e943c98
   filter: blur(60px);
   border-radius: 50%;
   animation: loadingCircle 5s linear infinite;
@@ -61,8 +66,13 @@
   display: none;
   width: 300px;
   height: 300px;
+<<<<<<< HEAD
   background: radial-gradient(circle at 30% 30%, rgba(125, 211, 252, 0.5), rgba(59, 130, 246, 0.24), transparent 60%);
   box-shadow: inset -50px 40px 50px rgba(56, 189, 248, 0.28), 0 0 90px rgba(56, 189, 248, 0.12);
+=======
+  background-color: #22d3ee;
+  box-shadow: inset -50px 40px 50px rgba(0, 180, 180, 0.6);
+>>>>>>> 505c90f31e9b8485c3b5aff376b047970e943c98
   filter: blur(50px);
   border-radius: 50%;
   animation: loadingCircle2 5s linear infinite;
@@ -94,9 +104,15 @@
   width: 400px;
   height: 400px;
   z-index: 1;
+<<<<<<< HEAD
   background: radial-gradient(circle at 30% 30%, rgba(125, 211, 252, 0.35), rgba(59, 130, 246, 0.18), transparent 60%);
   transform: translate(-50%, 36%) scaleX(1.4);
   box-shadow: inset 66px 35px 85px 0px rgba(56, 189, 248, 0.28), 0 0 80px rgba(56, 189, 248, 0.16);
+=======
+  background-color: #22d3ee;
+  transform: translate(-50%, 36%) scaleX(1.4);
+  box-shadow: inset 66px 35px 85px 0px rgba(0, 180, 180, 0.65);
+>>>>>>> 505c90f31e9b8485c3b5aff376b047970e943c98
   filter: blur(50px);
   border-radius: 50%;
   top: 50%;
@@ -177,16 +193,24 @@
 
 .landing-intro h2 {
   margin: 0;
+<<<<<<< HEAD
   color: var(--accentStrong);
   font-size: 22px;
   font-weight: 500;
   letter-spacing: 0.24em;
   text-transform: uppercase;
   text-shadow: 0 0 22px rgba(125, 211, 252, 0.16);
+=======
+  color: var(--accentColor);
+  font-size: 22px;
+  font-weight: 300;
+  letter-spacing: 2px;
+>>>>>>> 505c90f31e9b8485c3b5aff376b047970e943c98
 }
 
 .landing-intro h1 {
   margin: 0;
+<<<<<<< HEAD
   letter-spacing: -0.05em;
   font-size: 28px;
   line-height: 1;
@@ -200,6 +224,13 @@
   font-weight: 600;
   letter-spacing: 0.14em;
   text-transform: uppercase;
+=======
+  letter-spacing: 2px;
+  font-size: 28px;
+  line-height: 28px;
+  font-weight: 500;
+  font-family: "Geist", sans-serif;
+>>>>>>> 505c90f31e9b8485c3b5aff376b047970e943c98
 }
 
 /* .landing-intro h1 span {
@@ -217,10 +248,16 @@
 
 .landing-info h3 {
   font-size: 22px;
+<<<<<<< HEAD
   letter-spacing: 0.2em;
   font-weight: 500;
   text-transform: uppercase;
   color: var(--accentStrong);
+=======
+  letter-spacing: 2px;
+  font-weight: 300;
+  color: var(--accentColor);
+>>>>>>> 505c90f31e9b8485c3b5aff376b047970e943c98
   margin: 0;
 }
 
@@ -228,20 +265,32 @@
   margin: 0;
   margin-top: -20px;
   margin-left: 20px;
+<<<<<<< HEAD
   font-weight: 700;
   font-size: 32px;
   line-height: 1.05;
+=======
+  font-family: "Geist", sans-serif;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 40px;
+>>>>>>> 505c90f31e9b8485c3b5aff376b047970e943c98
   position: relative;
   display: flex;
   flex-wrap: nowrap;
   text-transform: uppercase;
+<<<<<<< HEAD
   letter-spacing: -0.05em;
+=======
+  letter-spacing: 2px;
+>>>>>>> 505c90f31e9b8485c3b5aff376b047970e943c98
 }
 
 .landing-description {
   max-width: 520px;
   margin: 14px 0 0;
   padding: 0 0 0 20px;
+<<<<<<< HEAD
   color: var(--textMuted);
   font-size: 15px;
   line-height: 1.85;
@@ -318,6 +367,12 @@
   background: linear-gradient(135deg, rgba(125, 211, 252, 0.22), rgba(59, 130, 246, 0.16));
   border-color: rgba(125, 211, 252, 0.42);
   box-shadow: 0 12px 30px rgba(56, 189, 248, 0.18);
+=======
+  color: rgba(255, 255, 255, 0.86);
+  font-size: 15px;
+  line-height: 1.7;
+  letter-spacing: 0.4px;
+>>>>>>> 505c90f31e9b8485c3b5aff376b047970e943c98
 }
 
 .landing-h2-info-1 {
@@ -326,6 +381,7 @@
 }
 
 h2.landing-info-h2 {
+<<<<<<< HEAD
   color: var(--accentStrong);
   font-size: 42px;
   width: 120%;
@@ -334,6 +390,16 @@ h2.landing-info-h2 {
   position: relative;
   margin-left: -5px;
   letter-spacing: -0.05em;
+=======
+  color: #14b8a6;
+  font-size: 42px;
+  width: 120%;
+  margin: 0;
+  font-family: "Geist", sans-serif;
+  font-weight: 600;
+  position: relative;
+  margin-left: -5px;
+>>>>>>> 505c90f31e9b8485c3b5aff376b047970e943c98
 }
 
 .landing-h2-2 {
@@ -349,7 +415,11 @@ h2.landing-info-h2 {
   z-index: 3;
   background-image: linear-gradient(0deg,
       var(--backgroundColor) 40%,
+<<<<<<< HEAD
       rgba(3, 6, 11, 0) 110%);
+=======
+      rgba(0, 0, 0, 0) 110%);
+>>>>>>> 505c90f31e9b8485c3b5aff376b047970e943c98
   top: 0;
   left: 0;
 }
@@ -387,6 +457,7 @@ h2.landing-info-h2 {
     font-size: 15px;
   }
 
+<<<<<<< HEAD
   .landing-tagline {
     max-width: 100%;
     padding: 0;
@@ -397,6 +468,8 @@ h2.landing-info-h2 {
     padding: 0;
   }
 
+=======
+>>>>>>> 505c90f31e9b8485c3b5aff376b047970e943c98
   h2.landing-info-h2 {
     font-size: 38px;
   }
