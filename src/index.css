@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Space+Grotesk:wght@500;600;700&family=IBM+Plex+Mono:wght@400;500&display=swap");
 
 :root {
@@ -11,19 +10,6 @@
   scroll-behavior: smooth;
   color-scheme: dark;
   color: #f7fbff;
-=======
-@import url("https://fonts.googleapis.com/css2?family=Geist:wght@100..900&display=swap");
-
-:root {
-  font-family: "Geist", sans-serif;
-
-  font-optical-sizing: auto;
-  font-style: normal;
-  line-height: 1.5;
-  scroll-behavior: smooth;
-  color-scheme: light dark;
-  color: #eae5ec;
->>>>>>> 505c90f31e9b8485c3b5aff376b047970e943c98
   background-color: var(--backgroundColor);
 
   font-synthesis: none;
@@ -33,7 +19,6 @@
   user-select: none;
   -webkit-user-select: none;
   -moz-user-select: none;
-<<<<<<< HEAD
   --font-sans: "Inter", "Segoe UI", "Helvetica Neue", Arial, sans-serif;
   --font-display: "Space Grotesk", "Inter", "Segoe UI", "Helvetica Neue", Arial, sans-serif;
   --font-mono: "IBM Plex Mono", "SFMono-Regular", monospace;
@@ -47,10 +32,6 @@
   --textPrimary: #f7fbff;
   --textMuted: #b5c8e0;
   --textSubtle: #8da0bd;
-=======
-  --accentColor: #5eead4;
-  --backgroundColor: #0a0e17;
->>>>>>> 505c90f31e9b8485c3b5aff376b047970e943c98
   --vh: 100vh;
   --vh: 100svh;
 }
@@ -61,7 +42,6 @@ h3,
 h4,
 h5,
 h6 {
-<<<<<<< HEAD
   font-family: var(--font-display);
   letter-spacing: -0.04em;
   line-height: 1.05;
@@ -71,9 +51,6 @@ h6 {
 p {
   line-height: 1.8;
   letter-spacing: 0.01em;
-=======
-  font-family: "Geist", sans-serif;
->>>>>>> 505c90f31e9b8485c3b5aff376b047970e943c98
 }
 
 body {
@@ -86,7 +63,6 @@ a {
 }
 
 a:hover {
-<<<<<<< HEAD
   color: var(--accentStrong);
   text-shadow: 0 0 18px var(--accentGlow);
 }
@@ -94,9 +70,6 @@ a:hover {
 ::selection {
   background: rgba(125, 211, 252, 0.24);
   color: var(--textPrimary);
-=======
-  color: var(--accentColor);
->>>>>>> 505c90f31e9b8485c3b5aff376b047970e943c98
 }
 
 main {
@@ -119,21 +92,16 @@ main {
 body {
   margin: 0;
   height: auto;
-<<<<<<< HEAD
   background:
     radial-gradient(circle at top left, rgba(56, 189, 248, 0.14), transparent 18%),
     radial-gradient(circle at 78% 18%, rgba(59, 130, 246, 0.12), transparent 16%),
     linear-gradient(180deg, #02050b 0%, #03060b 48%, #02060d 100%);
   background-attachment: fixed;
-=======
-  background-color: #050810;
->>>>>>> 505c90f31e9b8485c3b5aff376b047970e943c98
   flex-grow: 1;
   --cWidth: calc(100% - 30px);
   --cMaxWidth: 1920px;
   max-width: 100vw;
   overflow-x: hidden;
-<<<<<<< HEAD
   position: relative;
 }
 
@@ -165,11 +133,6 @@ body::after {
 .main-body {
   position: relative;
   z-index: 1;
-=======
-}
-
-.main-body {
->>>>>>> 505c90f31e9b8485c3b5aff376b047970e943c98
   max-width: 100vw;
   overflow-x: hidden;
 }

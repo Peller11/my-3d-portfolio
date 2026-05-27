@@ -87,7 +87,6 @@ const WhatIDo = () => {
             <div className="what-corner"></div>
 
             <div className="what-content-in">
-<<<<<<< HEAD
               <h3>Blue Team Foundations</h3>
               <h4>Security Monitoring &amp; Threat Detection</h4>
               <p>
@@ -103,22 +102,6 @@ const WhatIDo = () => {
                 <div className="what-tags">SIEM Basics</div>
                 <div className="what-tags">Log Analysis</div>
                 <div className="what-tags">Incident Response Basics</div>
-=======
-              <h3>AI & AUTOMATION</h3>
-              <h4>Workflow Intelligence for Organizations</h4>
-              <p>
-                AI specialist helping organizations automate workflows—internal ops
-                and customer-facing—so teams ship faster with less manual work.
-              </p>
-              <h5>Skillset & tools</h5>
-              <div className="what-content-flex">
-                <div className="what-tags">LLMs &amp; agents</div>
-                <div className="what-tags">Workflow design</div>
-                <div className="what-tags">RAG &amp; retrieval</div>
-                <div className="what-tags">Evals &amp; guardrails</div>
-                <div className="what-tags">Integrations</div>
-                <div className="what-tags">Product strategy</div>
->>>>>>> 505c90f31e9b8485c3b5aff376b047970e943c98
               </div>
               <div className="what-arrow"></div>
             </div>
@@ -142,7 +125,6 @@ const WhatIDo = () => {
             </div>
             <div className="what-corner"></div>
             <div className="what-content-in">
-<<<<<<< HEAD
               <h3>Lab &amp; SOC Readiness</h3>
               <h4>Networking, Linux &amp; Development Practice</h4>
               <p>
@@ -161,23 +143,6 @@ const WhatIDo = () => {
                 <div className="what-tags">JavaScript</div>
                 <div className="what-tags">React</div>
                 <div className="what-tags">Git &amp; GitHub</div>
-=======
-              <h3>BUILD &amp; SCALE</h3>
-              <h4>Shipping AI in Production</h4>
-              <p>
-                I build the systems behind it: APIs, data, voice/real-time, and
-                full-stack products—production-ready, not slide decks.
-              </p>
-              <h5>Skillset & tools</h5>
-              <div className="what-content-flex">
-                <div className="what-tags">Node.js</div>
-                <div className="what-tags">Python</div>
-                <div className="what-tags">REST &amp; real-time APIs</div>
-                <div className="what-tags">PostgreSQL</div>
-                <div className="what-tags">MongoDB</div>
-                <div className="what-tags">React</div>
-                <div className="what-tags">Cloud &amp; infra</div>
->>>>>>> 505c90f31e9b8485c3b5aff376b047970e943c98
               </div>
               <div className="what-arrow"></div>
             </div>

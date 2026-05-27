@@ -8,13 +8,9 @@
 
 .work-section h2 {
   font-size: 70px;
-<<<<<<< HEAD
   font-weight: 700;
   line-height: 1.02;
   letter-spacing: -0.05em;
-=======
-  font-weight: 500;
->>>>>>> 505c90f31e9b8485c3b5aff376b047970e943c98
   margin-top: 0;
   margin-bottom: 50px;
 }
@@ -36,7 +32,6 @@
 .carousel-track-container {
   overflow: hidden;
   width: 100%;
-<<<<<<< HEAD
   position: relative;
   border-top: 1px solid var(--panelBorder);
   border-bottom: 1px solid var(--panelBorder);
@@ -51,10 +46,6 @@
   inset: 0;
   background: linear-gradient(180deg, rgba(125, 211, 252, 0.06), transparent 55%);
   pointer-events: none;
-=======
-  border-top: 1px solid #363636;
-  border-bottom: 1px solid #363636;
->>>>>>> 505c90f31e9b8485c3b5aff376b047970e943c98
 }
 
 .carousel-track {
@@ -88,14 +79,9 @@
   font-size: 60px;
   line-height: 1;
   margin: 0;
-<<<<<<< HEAD
   font-weight: 700;
   letter-spacing: -0.05em;
   opacity: 0.35;
-=======
-  font-weight: 600;
-  opacity: 0.3;
->>>>>>> 505c90f31e9b8485c3b5aff376b047970e943c98
 }
 
 .carousel-details {
@@ -106,29 +92,18 @@
 
 .carousel-details h4 {
   font-size: 28px;
-<<<<<<< HEAD
   font-weight: 600;
   line-height: 1.12;
   letter-spacing: -0.03em;
-=======
-  font-weight: 500;
->>>>>>> 505c90f31e9b8485c3b5aff376b047970e943c98
   margin: 0;
 }
 
 .carousel-category {
-<<<<<<< HEAD
   font-weight: 400;
   color: var(--textMuted);
   margin: 0;
   font-size: 16px;
   line-height: 1.65;
-=======
-  font-weight: 200;
-  color: #adacac;
-  margin: 0;
-  font-size: 16px;
->>>>>>> 505c90f31e9b8485c3b5aff376b047970e943c98
 }
 
 .carousel-tools {
@@ -137,7 +112,6 @@
 
 .carousel-tools .tools-label {
   font-size: 14px;
-<<<<<<< HEAD
   font-weight: 600;
   opacity: 0.7;
   text-transform: uppercase;
@@ -150,19 +124,6 @@
   margin: 6px 0 0;
   font-size: 15px;
   line-height: 1.8;
-=======
-  font-weight: 400;
-  opacity: 0.6;
-  text-transform: uppercase;
-  letter-spacing: 1px;
-}
-
-.carousel-tools p {
-  font-weight: 200;
-  color: #adacac;
-  margin: 6px 0 0;
-  font-size: 15px;
->>>>>>> 505c90f31e9b8485c3b5aff376b047970e943c98
 }
 
 .carousel-image-wrapper {
@@ -178,15 +139,9 @@
   top: 50%;
   transform: translateY(-50%);
   z-index: 10;
-<<<<<<< HEAD
   background: rgba(8, 16, 32, 0.8);
   border: 1px solid var(--panelBorder);
   color: var(--textPrimary);
-=======
-  background: rgba(255, 255, 255, 0.05);
-  border: 1px solid rgba(255, 255, 255, 0.1);
-  color: #eae5ec;
->>>>>>> 505c90f31e9b8485c3b5aff376b047970e943c98
   width: 50px;
   height: 50px;
   border-radius: 50%;
@@ -197,7 +152,6 @@
   cursor: pointer;
   transition: all 0.3s ease;
   backdrop-filter: blur(8px);
-<<<<<<< HEAD
   box-shadow: 0 12px 30px rgba(15, 23, 42, 0.35);
 }
 
@@ -206,15 +160,6 @@
   border-color: var(--accentColor);
   color: var(--accentStrong);
   box-shadow: 0 0 22px rgba(125, 211, 252, 0.18);
-=======
-}
-
-.carousel-arrow:hover {
-  background: rgba(94, 234, 212, 0.15);
-  border-color: var(--accentColor);
-  color: var(--accentColor);
-  box-shadow: 0 0 20px rgba(94, 234, 212, 0.15);
->>>>>>> 505c90f31e9b8485c3b5aff376b047970e943c98
 }
 
 .carousel-arrow-left {
@@ -237,11 +182,7 @@
   width: 10px;
   height: 10px;
   border-radius: 50%;
-<<<<<<< HEAD
   border: 1px solid rgba(125, 211, 252, 0.28);
-=======
-  border: 1px solid rgba(255, 255, 255, 0.3);
->>>>>>> 505c90f31e9b8485c3b5aff376b047970e943c98
   background: transparent;
   cursor: pointer;
   transition: all 0.3s ease;
@@ -250,21 +191,13 @@
 
 .carousel-dot:hover {
   border-color: var(--accentColor);
-<<<<<<< HEAD
   background: rgba(125, 211, 252, 0.14);
-=======
-  background: rgba(94, 234, 212, 0.2);
->>>>>>> 505c90f31e9b8485c3b5aff376b047970e943c98
 }
 
 .carousel-dot-active {
   background: var(--accentColor);
   border-color: var(--accentColor);
-<<<<<<< HEAD
   box-shadow: 0 0 10px rgba(125, 211, 252, 0.4);
-=======
-  box-shadow: 0 0 8px rgba(94, 234, 212, 0.4);
->>>>>>> 505c90f31e9b8485c3b5aff376b047970e943c98
 }
 
 /* ── Work Image (reused) ── */
@@ -282,11 +215,7 @@
   position: absolute;
   bottom: 10px;
   right: 10px;
-<<<<<<< HEAD
   background: linear-gradient(135deg, rgba(8, 16, 32, 0.95), rgba(15, 23, 42, 0.85));
-=======
-  background-color: var(--backgroundColor);
->>>>>>> 505c90f31e9b8485c3b5aff376b047970e943c98
   width: 50px;
   border-radius: 50px;
   height: 50px;
@@ -294,13 +223,8 @@
   justify-content: center;
   align-items: center;
   font-size: 25px;
-<<<<<<< HEAD
   border: 1px solid var(--panelBorder);
   box-shadow: 0 0 18px rgba(56, 189, 248, 0.18), inset 0 0 12px rgba(56, 189, 248, 0.08);
-=======
-  box-shadow: 0px 0px 10px 0px rgba(255, 255, 255, 0.5),
-    inset 0px 0px 10px 0px #393939;
->>>>>>> 505c90f31e9b8485c3b5aff376b047970e943c98
   transition: 0.3s;
   opacity: 0;
 }

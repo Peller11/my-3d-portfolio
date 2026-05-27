@@ -8,7 +8,6 @@ const About = () => {
         <p className="para">
           I'm Oyewale Pelumi, a cybersecurity student passionate about digital security, SOC analysis, and modern technology. I enjoy building premium websites, learning cybersecurity tools, and exploring how systems work and how to protect them.
         </p>
-<<<<<<< HEAD
 
         <div className="currently-learning">
           <p className="currently-learning-label">Currently Learning</p>
@@ -21,8 +20,6 @@ const About = () => {
             <span>Blue Team Security</span>
           </div>
         </div>
-=======
->>>>>>> 505c90f31e9b8485c3b5aff376b047970e943c98
       </div>
     </div>
   );
