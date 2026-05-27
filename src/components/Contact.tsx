@@ -37,6 +37,17 @@ const Contact = () => {
           </div>
         </div>
       </div>
+      <footer className="site-footer">
+        <div className="site-footer-panel section-container">
+          <div className="footer-left">
+            <p className="footer-tagline">Building Blue Team Skills, One Lab at a Time.</p>
+            <p className="footer-availability">Open to internships, cybersecurity collaboration, and learning opportunities.</p>
+          </div>
+          <div className="footer-right">
+            <p className="footer-note">Connect on socials or send an email — always open to chat.</p>
+          </div>
+        </div>
+      </footer>
     </div>
   );
 };

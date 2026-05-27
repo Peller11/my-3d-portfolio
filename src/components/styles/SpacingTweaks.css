@@ -1,0 +1,64 @@
+/* Spacing and hierarchy tweaks — loaded last to override component CSS where appropriate */
+:root {
+  --section-vertical-padding: 64px;
+  --section-vertical-padding-mobile: 40px;
+  --section-heading-gap: 22px;
+}
+
+.section-container {
+  padding-top: var(--section-vertical-padding);
+  padding-bottom: var(--section-vertical-padding);
+  max-width: var(--cWidth);
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.section-container h2 {
+  margin-bottom: var(--section-heading-gap);
+}
+
+/* Make headings slightly smaller on mobile for better flow */
+@media (max-width: 900px) {
+  .section-container { padding-top: var(--section-vertical-padding-mobile); padding-bottom: var(--section-vertical-padding-mobile); }
+  .section-container h2 { margin-bottom: 18px; }
+}
+
+/* Increase gaps and padding for common grids to reduce overcrowding */
+.toolbox-grid, .current-focus-grid, .certs-grid, .hands-labs-grid, .currently-learning-grid {
+  gap: 26px !important;
+}
+
+.toolbox-card, .focus-card, .cert-card, .lab-card {
+  padding: 22px !important;
+  border-radius: 18px !important;
+}
+
+/* Slightly increase card min-height for better breathing room */
+.toolbox-card, .focus-card, .cert-card, .lab-card { min-height: 130px; }
+
+/* Ensure consistent card hover lift across sections */
+.toolbox-card:hover, .focus-card:hover, .cert-card:hover, .lab-card:hover { transform: translateY(-10px) !important; }
+
+/* Space out major sections further on desktop for premium feel */
+@media (min-width: 1200px) {
+  .section-container { padding-top: 84px; padding-bottom: 84px; }
+}
+
+/* Reduce max-width for overly wide text blocks to improve readability */
+.toolbox-copy h2, .current-focus-copy h2, .certs-copy h2, .hands-labs-copy h2, .career-section h2 {
+  max-width: 820px;
+}
+
+/* Subtle divider to visually separate sections without redesigning */
+.section-divider {
+  height: 1px;
+  width: 100%;
+  background: linear-gradient(90deg, rgba(125,211,252,0.06), rgba(125,211,252,0.02));
+  margin: 28px 0 34px;
+}
+
+/* Keep responsive card gaps balanced on small screens */
+@media (max-width: 600px) {
+  .toolbox-grid, .current-focus-grid, .certs-grid, .hands-labs-grid { gap: 16px !important; }
+  .toolbox-card, .focus-card, .cert-card, .lab-card { padding: 16px !important; }
+}
