@@ -1,0 +1,100 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="700" viewBox="0 0 1200 700">
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0%" stop-color="#050a14" />
+      <stop offset="100%" stop-color="#09121f" />
+    </linearGradient>
+    <linearGradient id="panel" x1="0" x2="0" y1="0" y2="1">
+      <stop offset="0%" stop-color="#0e1d34" />
+      <stop offset="100%" stop-color="#081025" />
+    </linearGradient>
+    <linearGradient id="topbar" x1="0" x2="1">
+      <stop offset="0%" stop-color="#0a1b33" />
+      <stop offset="100%" stop-color="#081325" />
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="700" fill="url(#bg)" />
+  <rect x="60" y="40" width="1080" height="620" rx="22" fill="rgba(4, 11, 23, 0.9)" stroke="#123046" stroke-width="2" />
+  <rect x="80" y="70" width="1040" height="560" rx="18" fill="url(#panel)" stroke="#0f2e50" stroke-width="1.5" />
+
+  <!-- Top toolbar -->
+  <rect x="90" y="85" width="1020" height="38" rx="9" fill="url(#topbar)" />
+  <circle cx="120" cy="104" r="6" fill="#e04a58" />
+  <circle cx="145" cy="104" r="6" fill="#f8c34a" />
+  <circle cx="170" cy="104" r="6" fill="#3fc95f" />
+  <text x="210" y="108" fill="#aac9ff" font-family="Inter, Arial, sans-serif" font-size="13">Capture | Statistics | Telephony | Wireless</text>
+  <rect x="790" y="90" width="260" height="22" rx="6" fill="#112a42" stroke="#1d4f7a" />
+  <text x="806" y="106" fill="#8bd5ff" font-family="Inter, Arial, sans-serif" font-size="12">Filter: tcp and tls</text>
+
+  <!-- packet list header -->
+  <rect x="100" y="140" width="1000" height="32" fill="#081425" />
+  <text x="108" y="162" fill="#7dd3fc" font-family="Inter, Arial, sans-serif" font-size="12" font-weight="700">No.</text>
+  <text x="190" y="162" fill="#7dd3fc" font-family="Inter, Arial, sans-serif" font-size="12" font-weight="700">Time</text>
+  <text x="320" y="162" fill="#7dd3fc" font-family="Inter, Arial, sans-serif" font-size="12" font-weight="700">Source</text>
+  <text x="490" y="162" fill="#7dd3fc" font-family="Inter, Arial, sans-serif" font-size="12" font-weight="700">Destination</text>
+  <text x="700" y="162" fill="#7dd3fc" font-family="Inter, Arial, sans-serif" font-size="12" font-weight="700">Protocol</text>
+  <text x="840" y="162" fill="#7dd3fc" font-family="Inter, Arial, sans-serif" font-size="12" font-weight="700">Length</text>
+  <text x="925" y="162" fill="#7dd3fc" font-family="Inter, Arial, sans-serif" font-size="12" font-weight="700">Info</text>
+
+  <!-- packet rows -->
+  <g font-family="Inter, Arial, sans-serif" font-size="12" fill="#c7e8ff">
+    <rect x="100" y="178" width="1000" height="26" fill="#0b1d33" />
+    <text x="108" y="195">1</text>
+    <text x="190" y="195">0.001234</text>
+    <text x="320" y="195">192.168.1.10</text>
+    <text x="490" y="195">172.217.12.14</text>
+    <text x="700" y="195">DNS</text>
+    <text x="840" y="195">78</text>
+    <text x="925" y="195">Standard query A google.com</text>
+
+    <rect x="100" y="208" width="1000" height="26" fill="#081226" />
+    <text x="108" y="225">2</text>
+    <text x="190" y="225">0.002314</text>
+    <text x="320" y="225">172.217.12.14</text>
+    <text x="490" y="225">192.168.1.10</text>
+    <text x="700" y="225">TCP</text>
+    <text x="840" y="225">66</text>
+    <text x="925" y="225">443 → 56012 [SYN] Seq=0 Win=65535</text>
+
+    <rect x="100" y="238" width="1000" height="26" fill="#0b1d33" />
+    <text x="108" y="255">3</text>
+    <text x="190" y="255">0.003581</text>
+    <text x="320" y="255">192.168.1.10</text>
+    <text x="490" y="255">172.217.12.14</text>
+    <text x="700" y="255">TLSv1.3</text>
+    <text x="840" y="255">1482</text>
+    <text x="925" y="255">Client Hello</text>
+
+    <rect x="100" y="268" width="1000" height="26" fill="#081226" />
+    <text x="108" y="285">4</text>
+    <text x="190" y="285">0.004770</text>
+    <text x="320" y="285">224.0.0.251</text>
+    <text x="490" y="285">224.0.0.251</text>
+    <text x="700" y="285">mDNS</text>
+    <text x="840" y="285">136</text>
+    <text x="925" y="285">Standard query PTR local</text>
+
+    <rect x="100" y="298" width="1000" height="26" fill="#0b1d33" />
+    <text x="108" y="315">5</text>
+    <text x="190" y="315">0.006012</text>
+    <text x="320" y="315">192.168.1.10</text>
+    <text x="490" y="315">255.255.255.255</text>
+    <text x="700" y="315">ARP</text>
+    <text x="840" y="315">42</text>
+    <text x="925" y="315">Who has 192.168.1.1? Tell 192.168.1.10</text>
+  </g>
+
+  <!-- packet detail panel -->
+  <rect x="100" y="360" width="1000" height="220" rx="12" fill="#071323" stroke="#0f315c" stroke-width="1.2" />
+  <text x="118" y="390" fill="#7dd3fc" font-family="Inter, Arial, sans-serif" font-size="13" font-weight="700">Packet Details</text>
+  <g fill="#aad7ff" font-family="Inter, Arial, sans-serif" font-size="12">
+    <text x="118" y="414">Frame 5: 58 bytes on wire (464 bits), 58 bytes captured (464 bits) on interface 0</text>
+    <text x="118" y="434">Ethernet II, Src: Cisco_12:34:56, Dst: Broadcast</text>
+    <text x="118" y="454">Internet Protocol Version 4, Src: 192.168.1.10, Dst: 192.168.1.1</text>
+    <text x="118" y="474">Address Resolution Protocol (request)</text>
+    <text x="118" y="494">Who has 192.168.1.1? Tell 192.168.1.10</text>
+  </g>
+
+  <!-- screenshot label -->
+  <text x="90" y="645" fill="#7dd3fc" font-family="Inter, Arial, sans-serif" font-size="14" font-weight="600">Live capture preview • Wireshark-style analysis</text>
+</svg>

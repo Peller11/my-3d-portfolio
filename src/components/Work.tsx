@@ -1,9 +1,18 @@
-import { useState, useCallback } from "react";
+import { useState, useCallback, useEffect } from "react";
 import "./styles/Work.css";
 import WorkImage from "./WorkImage";
 import { MdArrowBack, MdArrowForward } from "react-icons/md";
 
 const projects = [
+  {
+    title: "Wireshark Traffic Analysis Lab",
+    category:
+      "A hands-on cybersecurity learning project focused on analyzing real network traffic using Wireshark to understand DNS requests, TCP communication, and encrypted TLS traffic.",
+    tools: "Wireshark, Windows Networking, Browser Traffic Monitoring",
+    image: "/images/wireshark-screenshot.svg",
+    link: "#",
+    repo: "#",
+  },
   {
     title: "Restaurant Website",
     category:
@@ -30,9 +39,22 @@ const projects = [
   },
 ];
 
+const screenshotGallery: Record<string, string[]> = {
+  "Wireshark Traffic Analysis Lab": [
+    "/images/projects/dns-analysis.png",
+    "/images/projects/tcp-analysis.png",
+    "/images/projects/tls-analysis.png",
+  ],
+};
+
 const Work = () => {
   const [currentIndex, setCurrentIndex] = useState(0);
+  const [galleryIndex, setGalleryIndex] = useState(0);
   const [isAnimating, setIsAnimating] = useState(false);
+
+  useEffect(() => {
+    setGalleryIndex(0);
+  }, [currentIndex]);
 
   const goToSlide = useCallback(
     (index: number) => {
@@ -102,18 +124,50 @@ const Work = () => {
                         <p className="carousel-category">
                           {project.category}
                         </p>
-                        <div className="carousel-tools">
-                          <span className="tools-label">Tools & Features</span>
-                          <p>{project.tools}</p>
+                        {project.tools && (
+                          <div className="carousel-tools">
+                            <span className="tools-label">Tools & Features</span>
+                            <p>{project.tools}</p>
+                          </div>
+                        )}
+
+
+                        <div className="project-actions">
+                          <a className="project-btn project-btn-primary" href={project.link} target="_blank" rel="noreferrer">Live Demo</a>
+                          <a className="project-btn project-btn-ghost" href={project.repo || "#"} target="_blank" rel="noreferrer">GitHub</a>
                         </div>
                       </div>
                     </div>
                     <div className="carousel-image-wrapper">
-                      <WorkImage
-                        image={project.image}
-                        alt={project.title}
-                        link={project.link}
-                      />
+                      {screenshotGallery[project.title] ? (
+                        <div className="project-gallery-wrapper">
+                          <div className="project-gallery-main">
+                            <img
+                              src={screenshotGallery[project.title][galleryIndex]}
+                              alt={`${project.title} screenshot ${galleryIndex + 1}`}
+                            />
+                          </div>
+                          <div className="project-gallery-thumbs">
+                            {screenshotGallery[project.title].map((src: string, idx: number) => (
+                              <button
+                                type="button"
+                                className={`gallery-thumb ${galleryIndex === idx ? "gallery-thumb-active" : ""}`}
+                                onClick={() => setGalleryIndex(idx)}
+                                aria-label={`View screenshot ${idx + 1}`}
+                                key={idx}
+                              >
+                                <img src={src} alt={`${project.title} thumbnail ${idx + 1}`} />
+                              </button>
+                            ))}
+                          </div>
+                        </div>
+                      ) : (
+                        <WorkImage
+                          image={project.image}
+                          alt={project.title}
+                          link={project.link}
+                        />
+                      )}
                     </div>
                   </div>
                 </div>
