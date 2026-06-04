@@ -1,11 +1,9 @@
 import "./styles/Certifications.css";
 
 const certs = [
-  { title: "Google Cybersecurity Certificate", status: "in-progress" },
-  { title: "TryHackMe SOC Level 1", status: "planned" },
-  { title: "Cisco Networking Basics", status: "learning" },
-  { title: "CompTIA Security+", status: "future" },
-  { title: "Linux & Security Labs", status: "ongoing" },
+  { title: "Google Cybersecurity Professional Certificate", status: "in-progress" },
+  { title: "Cisco Networking Basics", status: "completed" },
+  { title: "Security+", status: "planned" },
 ];
 
 const Certifications = () => {
@@ -14,7 +12,7 @@ const Certifications = () => {
       <div className="certs-panel">
         <div className="certs-copy">
           <p className="certs-label">Certifications & Learning</p>
-          <h2>Certifications I am pursuing and learning goals on my cybersecurity journey.</h2>
+          <h2>Certifications I am pursuing as part of my cybersecurity and network security journey.</h2>
         </div>
 
         <div className="certs-grid">
@@ -23,6 +21,7 @@ const Certifications = () => {
               <div className={`cert-badge cert-${c.status}`}>{
                 c.status === "in-progress" ? "In Progress" :
                 c.status === "planned" ? "Planned" :
+                c.status === "completed" ? "Completed" :
                 c.status === "learning" ? "Learning" :
                 c.status === "future" ? "Future Goal" :
                 c.status === "ongoing" ? "Ongoing Practice" : ""

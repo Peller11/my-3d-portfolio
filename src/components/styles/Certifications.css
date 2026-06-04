@@ -18,6 +18,8 @@
 
 .cert-learning { background: linear-gradient(90deg, rgba(99,102,241,0.9), rgba(125,211,252,0.9)); color: #041227; box-shadow: 0 6px 20px rgba(59,130,246,0.12); }
 
+.cert-completed { background: linear-gradient(90deg, rgba(34,197,94,0.95), rgba(56,189,248,0.18)); color: #041227; box-shadow: 0 6px 18px rgba(16,185,129,0.18); }
+
 .cert-future { background: linear-gradient(90deg, rgba(156,163,175,0.12), rgba(125,211,252,0.06)); color: var(--textPrimary); box-shadow: none; border: 1px solid rgba(125,211,252,0.06); }
 
 .cert-ongoing { background: linear-gradient(90deg, rgba(56,189,248,0.9), rgba(34,197,94,0.06)); color: #041227; box-shadow: 0 6px 18px rgba(56,189,248,0.12); }

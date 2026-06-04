@@ -10,6 +10,7 @@ import SocialIcons from "./SocialIcons";
 import WhatIDo from "./WhatIDo";
 import Work from "./Work";
 import CybersecurityToolbox from "./CybersecurityToolbox";
+import HomeLab from "./HomeLab";
 import Certifications from "./Certifications";
 import HandsOnLabs from "./HandsOnLabs";
 import setSplitText from "./utils/splitText";
@@ -49,6 +50,7 @@ const MainContainer = ({ children }: PropsWithChildren) => {
             <Career />
             <CurrentFocus />
             <CybersecurityToolbox />
+            <HomeLab />
             <Certifications />
             <HandsOnLabs />
             <Work />
